@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="indexSearch.css">
+    </head>
+    <body>
+        <ul class="nav">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Cautare Normala</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link"href="indexImg.html">Cautare Imagine</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="indexAdv.html">Cautare Avansata</a>
+            </li>
+        </ul>
+
+        <form action="https://www.google.com/search">
+            <input type="text" name="q">
+            <input type="hidden" id="UDM" name="udm" value="2">
+            <input type="hidden" id="PRMD" name="prmd" value="inmvbtz">
+
+            
+            <div class="searchBar">
+                <input type="submit" value="Google Search">
+            </div>
+        </form>
+    </body>
+</html>
